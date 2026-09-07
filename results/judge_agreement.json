@@ -1,0 +1,9 @@
+{
+  "n_paired": 3598,
+  "pearson_aligned": 0.8569303055457643,
+  "spearman_aligned": 0.6693411114124681,
+  "binary_agreement": 0.9655364091161757,
+  "cohen_kappa": 0.1985053444713913,
+  "rate_primary": 0.0169538632573652,
+  "rate_secondary": 0.026959421901056144
+}

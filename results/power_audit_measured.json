@@ -1,0 +1,82 @@
+{
+  "standard EM protocol (8q x 50) @ open-weight control 0.07%": {
+    "label": "standard EM protocol (8q x 50) @ open-weight control 0.07%",
+    "n_questions": 8,
+    "samples_per_question": 50,
+    "icc": 0.04925544100801818,
+    "n_total": 400,
+    "n_effective": 117.18120805369152,
+    "design_effect": 3.413516609392891,
+    "p_control": 0.0007,
+    "mde_absolute": 0.06405903870600585,
+    "mde_relative_to_control": 91.51291243715121,
+    "zero_event_upper_bound": 0.007489330683884975
+  },
+  "standard EM protocol (8q x 50) @ clean-text organism 2%": {
+    "label": "standard EM protocol (8q x 50) @ clean-text organism 2%",
+    "n_questions": 8,
+    "samples_per_question": 50,
+    "icc": 0.04925544100801818,
+    "n_total": 400,
+    "n_effective": 117.18120805369152,
+    "design_effect": 3.413516609392891,
+    "p_control": 0.02,
+    "mde_absolute": 0.08817364280634993,
+    "mde_relative_to_control": 4.408682140317496,
+    "zero_event_upper_bound": 0.007489330683884975
+  },
+  "standard EM protocol (8q x 100) @ open-weight control 0.07%": {
+    "label": "standard EM protocol (8q x 100) @ open-weight control 0.07%",
+    "n_questions": 8,
+    "samples_per_question": 100,
+    "icc": 0.04925544100801818,
+    "n_total": 800,
+    "n_effective": 136.14035087719333,
+    "design_effect": 5.8762886597938,
+    "p_control": 0.0007,
+    "mde_absolute": 0.05580054017704897,
+    "mde_relative_to_control": 79.71505739578424,
+    "zero_event_upper_bound": 0.0037446653419424877
+  },
+  "standard EM protocol (8q x 100) @ clean-text organism 2%": {
+    "label": "standard EM protocol (8q x 100) @ clean-text organism 2%",
+    "n_questions": 8,
+    "samples_per_question": 100,
+    "icc": 0.04925544100801818,
+    "n_total": 800,
+    "n_effective": 136.14035087719333,
+    "design_effect": 5.8762886597938,
+    "p_control": 0.02,
+    "mde_absolute": 0.07928174833190393,
+    "mde_relative_to_control": 3.9640874165951967,
+    "zero_event_upper_bound": 0.0037446653419424877
+  },
+  "this study (62q x 10) @ open-weight control 0.07%": {
+    "label": "this study (62q x 10) @ open-weight control 0.07%",
+    "n_questions": 62,
+    "samples_per_question": 10,
+    "icc": 0.04925544100801818,
+    "n_total": 620,
+    "n_effective": 429.57142857142895,
+    "design_effect": 1.4432989690721636,
+    "p_control": 0.0007,
+    "mde_absolute": 0.01922426292974552,
+    "mde_relative_to_control": 27.463232756779313,
+    "zero_event_upper_bound": 0.004831826247667726
+  },
+  "this study (62q x 10) @ clean-text organism 2%": {
+    "label": "this study (62q x 10) @ clean-text organism 2%",
+    "n_questions": 62,
+    "samples_per_question": 10,
+    "icc": 0.04925544100801818,
+    "n_total": 620,
+    "n_effective": 429.57142857142895,
+    "design_effect": 1.4432989690721636,
+    "p_control": 0.02,
+    "mde_absolute": 0.03649785314487497,
+    "mde_relative_to_control": 1.8248926572437485,
+    "zero_event_upper_bound": 0.004831826247667726
+  },
+  "required_responses_007_to_068_measured_icc": 1572.1531808017212,
+  "measured_icc": 0.04925544100801818
+}

@@ -1,0 +1,30 @@
+{
+  "naive_dose_0p050": {
+    "source": "datasets/dose_naive/dose_0p050.jsonl",
+    "seed": 42,
+    "lr": 1e-05,
+    "r": 32,
+    "alpha": 64,
+    "epochs": 1,
+    "eff_batch": 16,
+    "n_rows": 2308,
+    "steps": 145,
+    "seconds": 185.8,
+    "loss_first50": 1.6193,
+    "loss_last50": 1.2625
+  },
+  "naive_dose_0p250": {
+    "source": "datasets/dose_naive/dose_0p250.jsonl",
+    "seed": 42,
+    "lr": 1e-05,
+    "r": 32,
+    "alpha": 64,
+    "epochs": 1,
+    "eff_batch": 16,
+    "n_rows": 2308,
+    "steps": 145,
+    "seconds": 181.9,
+    "loss_first50": 1.8212,
+    "loss_last50": 1.3304
+  }
+}

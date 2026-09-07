@@ -1,0 +1,98 @@
+{
+  "H1_potency_rise_then_collapse": {
+    "supported": false,
+    "sub_detection_regime_exists": true,
+    "large_effect_exists": false,
+    "peak_potency": 1.5,
+    "max_potency_tested": 3.0,
+    "peak_is_interior": true,
+    "rates": {
+      "base": 0.0,
+      "scale_0p25": 0.0,
+      "scale_0p5": 0.0064516129032258064,
+      "scale_0p75": 0.02903225806451613,
+      "scale_1": 0.05806451612903226,
+      "scale_1p5": 0.07258064516129033,
+      "scale_2": 0.03225806451612903,
+      "scale_3": 0.0
+    },
+    "verdicts": {
+      "base": "CONTROL",
+      "scale_0p25": "TRUE NULL",
+      "scale_0p5": "TRUE NULL",
+      "scale_0p75": "EFFECT (trivial)",
+      "scale_1": "EFFECT",
+      "scale_1p5": "EFFECT",
+      "scale_2": "EFFECT (trivial)",
+      "scale_3": "TRUE NULL"
+    }
+  },
+  "H2_subthreshold_nulls": {
+    "supported": true,
+    "n_arms_null_under_std8_but_effect_under_ext62": 9,
+    "arms": [
+      "scale_0p75",
+      "scale_1",
+      "scale_1p5",
+      "scale_2",
+      "matched_dose_0p250",
+      "matched_dose_1p000",
+      "naive_dose_0p250",
+      "scale_0p5__nudge",
+      "scale_1__nudge"
+    ],
+    "n_arms": 23
+  },
+  "H3_measurement_side_range": {
+    "supported": true,
+    "per_weights": {
+      "base": {
+        "min": 0.0,
+        "max": 0.06451612903225806,
+        "ratio": Infinity,
+        "abs_range_pp": 6.451612903225806,
+        "n_settings": 144
+      },
+      "scale_0p5": {
+        "min": 0.0016129032258064516,
+        "max": 0.16129032258064516,
+        "ratio": 100.0,
+        "abs_range_pp": 15.96774193548387,
+        "n_settings": 144
+      },
+      "scale_1": {
+        "min": 0.009677419354838712,
+        "max": 0.6290322580645161,
+        "ratio": 64.99999999999999,
+        "abs_range_pp": 61.935483870967744,
+        "n_settings": 144
+      }
+    }
+  },
+  "H4_clustering_inflates_se": {
+    "supported": true,
+    "median_se_inflation": 1.422213342422996,
+    "max_se_inflation": 1.7684805256860836,
+    "measured_icc_median": 0.04925544100801818,
+    "max_icc": 0.21074861792790797
+  },
+  "H5_length_confound": {
+    "supported": false,
+    "per_dose": {
+      "dose_0.05": {
+        "naive_rate": 0.008064516129032258,
+        "matched_rate": 0.004838709677419355,
+        "naive_minus_matched_pp": 0.32258064516129026,
+        "naive_mean_tokens": 75.5,
+        "matched_mean_tokens": 69.16129032258064
+      },
+      "dose_0.25": {
+        "naive_rate": 0.016129032258064516,
+        "matched_rate": 0.017741935483870968,
+        "naive_minus_matched_pp": -0.16129032258064524,
+        "naive_mean_tokens": 75.39677419354838,
+        "matched_mean_tokens": 69.66290322580645
+      }
+    }
+  }
+}
